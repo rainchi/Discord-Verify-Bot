@@ -36,7 +36,7 @@ function processCmd(receivedMessage) {
         var val = authkey.get(receivedMessage.author.id);
         if(arguments[0] != null && val!=null){
             if(arguments[0] == val){
-                receivedMessage.member.addRole(VERIFIYED_ROLE_ID).catch(console.error);
+                receivedMessage.member.addRole(process.env.VERIFIYED_ROLE_ID).catch(console.error);
                 receivedMessage.channel.send(process.env.MESSAGE_AUTH_SUCCESS);
                 authkey.delete(arguments[0]);
             }else{
