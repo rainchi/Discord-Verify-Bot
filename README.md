@@ -28,7 +28,8 @@ A bot prevent spamming by using verify system
         8. MESSAGE_CMD_ERROR:設定當玩家驗證時未提供序號的訊息
     7. 完成後切換回Deploy拉到下面按Manual deploy旁邊的Deploy
     8. 切換到Resources分頁並重新整理頁面,會看到下面的Free Dynos有Web和Worker選項,按右邊的編輯把Web關掉、Worker打開
-    9. 完成,若還是不能用請來聯絡我,Discord:rainchi#0948
+    9. 請把Discord伺服器設定身分組裡BOT名子的身分組盡量向上移
+    10. 完成,若還是不能用請來聯絡我,Discord:rainchi#0948
 
 # BOT_TOKEN獲取和邀請機器人進群
 1. 請參考 https://home.gamer.com.tw/creationDetail.php?sn=4303952 文章的第一步
