@@ -1,0 +1,23 @@
+{
+
+  "name": "Discord-Verify-Bot",
+
+  "description": "A bot prevent spamming by using verify system",
+
+  "version": "1.0.1",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "start": "node index.js"
+
+  },
+
+  "dependencies": {
+
+    "discord.js": "11.5.0"
+
+  }
+
+}
