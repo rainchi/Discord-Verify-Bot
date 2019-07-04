@@ -18,14 +18,14 @@ A bot prevent spamming by using verify system
     5. 連結後在repo-name那個打專案名後按Search -> 選搜尋結果裡剛剛Github Fork的專案按Connect
     6. 接著先切換到Settings分頁 -> 按Reveal Config Vars,接著填入各項資訊,
         格式 KEY:VALUE 不要複製貼上
-        BOT_TOKEN:請看下面的教學,可以順便邀機器人進群
-        VERIFIYED_ROLE_ID:請去Discord伺服器設定在要拿來當已驗證的身分組上面按右鍵然後複製ID
-        MESSAGE_ALREADY_VERIFYED:設定已驗證的玩家再次輸入指令時的提示訊息
-        MESSAGE_AUTH_KEY:設定當玩家輸入!auth時的訊息,以 <key> 代替產生的序號(執行時會自動轉成序號)
-        MESSAGE_AUTH_SUCCESS:設定當玩家驗證後產生的訊息
-        MESSAGE_AUTH_ERRORKEY:設定當玩家驗證時序號錯誤的訊息
-        MESSAGE_AUTH_NOTFOUNDKEY:設定當玩家驗證時找不到序號的訊息
-        MESSAGE_CMD_ERROR:設定當玩家驗證時未提供序號的訊息
+        1. BOT_TOKEN:請看下面的教學,可以順便邀機器人進群
+        2. VERIFIYED_ROLE_ID:請去Discord伺服器設定在要拿來當已驗證的身分組上面按右鍵然後複製ID
+        3. MESSAGE_ALREADY_VERIFYED:設定已驗證的玩家再次輸入指令時的提示訊息
+        4. MESSAGE_AUTH_KEY:設定當玩家輸入!auth時的訊息,以 <key> 代替產生的序號(執行時會自動轉成序號)
+        5. MESSAGE_AUTH_SUCCESS:設定當玩家驗證後產生的訊息
+        6. MESSAGE_AUTH_ERRORKEY:設定當玩家驗證時序號錯誤的訊息
+        7. MESSAGE_AUTH_NOTFOUNDKEY:設定當玩家驗證時找不到序號的訊息
+        8. MESSAGE_CMD_ERROR:設定當玩家驗證時未提供序號的訊息
     7. 完成後切換回Deploy拉到下面按Manual deploy旁邊的Deploy
     8. 切換到Resources分頁並重新整理頁面,會看到下面的Free Dynos有Web和Worker選項,按右邊的編輯把Web關掉、Worker打開
     9. 完成,若還是不能用請來聯絡我,Discord:rainchi#0948
