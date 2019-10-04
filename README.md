@@ -20,12 +20,12 @@ A bot prevent spamming by using verify system
         格式 KEY:VALUE 不要複製貼上
         1. BOT_TOKEN:請看下面的教學,可以順便邀機器人進群
         2. VERIFIYED_ROLE_ID:請去Discord伺服器設定在要拿來當已驗證的身分組上面按右鍵然後複製ID
-        3. MESSAGE_ALREADY_VERIFYED:設定已驗證的玩家再次輸入指令時的提示訊息
-        4. MESSAGE_AUTH_KEY:設定當玩家輸入!auth時的訊息,以 \<key\> 代替產生的序號(執行時會自動轉成序號)
-        5. MESSAGE_AUTH_SUCCESS:設定當玩家驗證後產生的訊息
-        6. MESSAGE_AUTH_ERRORKEY:設定當玩家驗證時序號錯誤的訊息
-        7. MESSAGE_AUTH_NOTFOUNDKEY:設定當玩家驗證時找不到序號的訊息
-        8. MESSAGE_CMD_ERROR:設定當玩家驗證時未提供序號的訊息
+        3. MESSAGE_ALREADY_VERIFYED:設定已驗證的使用者再次輸入指令時的提示訊息
+        4. MESSAGE_AUTH_KEY:設定當使用者輸入!auth時的訊息,以 \<key\> 代替產生的序號(執行時會自動轉成序號)
+        5. MESSAGE_AUTH_SUCCESS:設定當使用者驗證後產生的訊息
+        6. MESSAGE_AUTH_ERRORKEY:設定當使用者驗證時序號錯誤的訊息
+        7. MESSAGE_AUTH_NOTFOUNDKEY:設定當使用者驗證時找不到序號的訊息
+        8. MESSAGE_CMD_ERROR:設定當使用者驗證時未提供序號的訊息
     7. 完成後切換回Deploy拉到下面按Manual deploy旁邊的Deploy
     8. 切換到Resources分頁並重新整理頁面,會看到下面的Free Dynos有Web和Worker選項,按右邊的編輯把Web關掉、Worker打開
     9. 請把Discord伺服器設定身分組裡BOT名子的身分組盡量向上移
